@@ -2,7 +2,7 @@
   "name": "back",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "```sh\r touch server.js README.md .env .env.example .gitignore && mkdir controllers models middlewares data routers public && npm init -y && npm i express express-validator mongoose multer cors && npm i nodemon dotenv -D\r ```",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
@@ -14,10 +14,14 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dom": "^0.0.3",
     "express": "^4.18.2",
     "express-validator": "^7.0.1",
     "mongoose": "^7.6.3",
     "multer": "^1.4.5-lts.1",
+    "node": "^21.2.0",
+    "react-router": "^6.20.0",
+    "sass": "^1.69.5",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
